@@ -1,0 +1,29 @@
+.page {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.page h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.page button {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  
+}
+.answers {
+  display: flex;
+  flex-direction: column
+}
+.page button:hover:active {
+  background-color: lightblue;
+  transform: scale(0.95);
+}
