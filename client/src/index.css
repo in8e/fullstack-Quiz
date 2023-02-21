@@ -10,4 +10,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+ 
+}
+.pageContainer{ 
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Header {  
+  color: aliceblue;
+  padding: 16px;
+  background-color: #282c34;
+  border: 4px solid aliceblue;
+  border-radius: 10px;
+}   
+
+.questionPrompt {
+  color: aliceblue;
+}
+.answers {
+  display: flex;
+  flex-direction: row;
+}
+.gitLink {
+  color: aqua;
+}
+.footerNote {
+  color: aliceblue;
+  font-size: 16px;
 }
